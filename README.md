@@ -2,8 +2,6 @@
 
 ## 웹사이트 주소 : [뭉클](https://moongcle.xyz)
 
-
-
 ## 웹 사이트 정리
 Server : Ubuntu 24.04 LTS
 Frontend : ReactNative
@@ -20,9 +18,17 @@ Database : MariaDB (가용 램 10GB)
 Backend : Django 5.0
 Language : Python 3.12
 Framework : pywin32, pillow, pyhwpx
+### 문제 업로드 기능과 미들웨어 프로그램 결합 
+![alt text](image/image.png)
+
+### 시험지 조회 기능과 미들웨어 프로그램 결합
+![alt text](image/image2.png)
+
+### 출제 유형 3번 문제 선택기능과 미들웨어 프로그램 결합
+![alt text](image/image3.png)
 
 파이썬 프로그램으로 url 주소를 받아
-win32를 통해 한글 프로그램을 조종하여 데이터를 생성 및 DB에 업로드를 진행
+win32를 통해 한글 프로그램을 컨트롤하여 데이터를 생성 및 DB에 업로드를 진행
 이후 [시험지 생성 / 문제집 생성] 기능을 통해 생성된 데이터를 활용하여 시험지를 제작
 
 ## 주요 사이트 내부 작업 시퀀스 다이어그램 정리

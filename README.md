@@ -9,7 +9,7 @@ Backend : Node.js (pm2)
 
 ## 데이터베이스 서버 정리
 Server : Ubuntu 24.04
-Database : MariaDB (가용 램 10GB)
+Database : DB (가용 램 10GB)
 
 ## 백업 설정
 제품 : Synology 220j
@@ -35,13 +35,13 @@ win32를 통해 한글 프로그램을 컨트롤하여 데이터를 생성 및 D
 ### 회원가입 과정
 ```mermaid
 sequenceDiagram
-	회원가입->>DB[ID 테이블]: ID에 대한 DB 테이블 생성 (Node.js -> MariaDB)
-	회원가입->>DB[ID 테이블]: ID 저장 / PW(암호화) (Node.js -> MariaDB)
-	관리자->>DB[ID 테이블]: 권한 수락 (Node.js -> MariaDB -> Node.js)
-	회원가입->>DB[ID 테이블]: 전화번호 (Node.js -> MariaDB)
-	회원가입->>DB[ID 테이블]: 생년월일 (Node.js -> MariaDB)
-	회원가입->>DB[ID 테이블]: 가입일 (Node.js -> MariaDB)
-	회원가입->>DB[ID 테이블]: 이메일 (Node.js -> MariaDB)
+	회원가입->>DB[ID 테이블]: ID에 대한 DB 테이블 생성 (Node.js -> DB)
+	회원가입->>DB[ID 테이블]: ID 저장 / PW(암호화) (Node.js -> DB)
+	관리자->>DB[ID 테이블]: 권한 수락 (Node.js -> DB -> Node.js)
+	회원가입->>DB[ID 테이블]: 전화번호 (Node.js -> DB)
+	회원가입->>DB[ID 테이블]: 생년월일 (Node.js -> DB)
+	회원가입->>DB[ID 테이블]: 가입일 (Node.js -> DB)
+	회원가입->>DB[ID 테이블]: 이메일 (Node.js -> DB)
 	사용자->>DB[ID 테이블]: 비밀번호 수정
 	사용자->>DB[ID 테이블]: 학원 이미지 등록
 	

@@ -6,22 +6,22 @@
 [![Video Label](https://i.ytimg.com/vi/hXvh10sc3YU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC5jzNoUJyUVTemu_pJmqardh6DoA)](https://youtu.be/hXvh10sc3YU)
 
 ## 웹 사이트 정리
-Server : Ubuntu 24.04 LTS
-Frontend : ReactNative
-Backend : Node.js (pm2)
+Server : Ubuntu 24.04 LTS  
+Frontend : ReactNative  
+Backend : Node.js (pm2)  
 
 ## 데이터베이스 서버 정리
-Server : Ubuntu 24.04
-Database : DB (가용 램 10GB)
+Server : Ubuntu 24.04  
+Database : DB (가용 램 10GB)  
 
 ## 클라이언트 로컬 서버 프로그램
-Backend : Django 5.1
-Language : Python 3.12
-Framework : pywin32, pillow, pyhwpx
+Backend : Django 5.0.2   
+Language : Python 3.12  
+Framework : pywin32, pillow, pyhwpx  
 
 
 ### 문제 업로드 기능과 미들웨어 프로그램 결합 
-![alt text](image/image.png)
+![alt text](image/image.png)  
 
 ### 시험지 조회 기능과 미들웨어 프로그램 결합
 ![alt text](image/image2.png)

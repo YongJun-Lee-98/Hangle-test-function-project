@@ -13,13 +13,12 @@ Backend : Node.js (pm2)
 Server : Ubuntu 24.04
 Database : DB (가용 램 10GB)
 
-## 백업 설정
-제품 : Synology 220j
-
-## 클라이언트 쪽 미들웨어 프로그램
-Backend : Django 5.0
+## 클라이언트 로컬 서버 프로그램
+Backend : Django 5.1
 Language : Python 3.12
 Framework : pywin32, pillow, pyhwpx
+
+
 ### 문제 업로드 기능과 미들웨어 프로그램 결합 
 ![alt text](image/image.png)
 

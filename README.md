@@ -2,7 +2,8 @@
 
 ## 웹사이트 주소 : [뭉클](https://moongcle.xyz)
 로그인을 해야하는 구조의 사이트입니다.  
-이미지를 첨부합니다.  
+간단한 시연한 영상을 첨부하겠습니다.  
+[![Video Label](https://i.ytimg.com/vi/hXvh10sc3YU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC5jzNoUJyUVTemu_pJmqardh6DoA)](https://youtu.be/hXvh10sc3YU)
 
 ## 웹 사이트 정리
 Server : Ubuntu 24.04 LTS
@@ -48,7 +49,7 @@ sequenceDiagram
 	
 ```
 
-### 문제 데이터 생성 및 시험지 출제
+### 문제 데이터 생성 및 시험지 출제 정리
 ```mermaid
 sequenceDiagram
 사용자 문제 업로드->>DB[문제 데이터 테이블]: 문제[id]

@@ -3,7 +3,7 @@
 ## 웹사이트 주소 : [뭉클](https://moongcle.xyz)
 로그인을 해야하는 구조의 사이트입니다.  
 간단한 시연한 영상을 첨부하겠습니다.  
-[![Video Label](https://i.ytimg.com/vi/hXvh10sc3YU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC5jzNoUJyUVTemu_pJmqardh6DoA)](https://youtu.be/hXvh10sc3YU)
+[![Video Label](https://i.ytimg.com/vi/psoi1_03HzY/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLB3o-3CuJmmXZlH5OX5JQlnkQ-08w)](https://youtu.be/psoi1_03HzY)
 
 ## 웹 사이트 정리
 Server : Ubuntu 24.04 LTS  
